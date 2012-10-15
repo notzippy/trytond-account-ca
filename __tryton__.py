@@ -14,6 +14,7 @@
     ],
     'xml': [
         'account_ca.xml',
+        'tax_ca.xml',
     ],
     'translation': [
     ],

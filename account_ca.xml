@@ -138,14 +138,6 @@
           <field name="type" ref="ca_asset"/>
           <field name="parent" ref="ca_account_receivable"/>
         </record>
-        
-        <record model="account.account.template" id="1150">
-          <field name="name">GST receivable</field>
-          <field name="code">1150</field>
-          <field name="kind">receivable</field>
-          <field name="type" ref="ca_asset"/>
-          <field name="parent" ref="ca_root"/>
-        </record>
 
         <record model="account.account.template" id="1190">
           <field name="name">Allowance for doubtful accts.</field>
@@ -578,70 +570,6 @@
             <field name="kind">payable</field>
             <field name="type" ref="ca_liability"/>
             <field name="parent" ref="ca_corp_tax_payable"/>
-        </record>
-
-        <record model="account.account.template" id="2430">
-            <field name="name">GST/HST Collected/Payable</field>
-            <field name="code">2430</field>
-            <field name="kind">payable</field>
-            <field name="type" ref="ca_liability"/>
-            <field name="parent" ref="ca_root"/>
-        </record>
-
-        <!-- Provincial Sales Tax -->
-        <record model="account.account.template" id="ca_prov_sales_tax">
-            <field name="name">Provincial Sales Tax</field>
-            <field name="kind">view</field>
-            <field name="type" ref="ca_liability"/>
-            <field name="parent" ref="ca_root"/>
-        </record>
-
-        <record model="account.account.template" id="2440">
-            <field name="name">Provincial Sales Tax - Ontario</field>
-            <field name="code">2440</field>
-            <field name="kind">payable</field>
-            <field name="type" ref="ca_liability"/>
-            <field name="parent" ref="ca_prov_sales_tax"/>
-        </record>
-
-        <record model="account.account.template" id="2445">
-            <field name="name">Provincial Sales Tax - Quebec</field>
-            <field name="code">2445</field>
-            <field name="kind">payable</field>
-            <field name="type" ref="ca_liability"/>
-            <field name="parent" ref="ca_prov_sales_tax"/>
-        </record>
-
-        <record model="account.account.template" id="2450">
-            <field name="name">Provincial Sales Tax - Manitoba</field>
-            <field name="code">2450</field>
-            <field name="kind">payable</field>
-            <field name="type" ref="ca_liability"/>
-            <field name="parent" ref="ca_prov_sales_tax"/>
-        </record>
-
-        <record model="account.account.template" id="2460">
-            <field name="name">Provincial Sales Tax - Saskachewan</field>
-            <field name="code">2460</field>
-            <field name="kind">payable</field>
-            <field name="type" ref="ca_liability"/>
-            <field name="parent" ref="ca_prov_sales_tax"/>
-        </record>
-
-        <record model="account.account.template" id="2470">
-            <field name="name">Provincial Sales Tax - British Columbia</field>
-            <field name="code">2470</field>
-            <field name="kind">payable</field>
-            <field name="type" ref="ca_liability"/>
-            <field name="parent" ref="ca_prov_sales_tax"/>
-        </record>
-
-        <record model="account.account.template" id="2480">
-            <field name="name">Provincial Sales Tax - PEI</field>
-            <field name="code">2480</field>
-            <field name="kind">payable</field>
-            <field name="type" ref="ca_liability"/>
-            <field name="parent" ref="ca_prov_sales_tax"/>
         </record>
 
         <record model="account.account.template" id="2500">
