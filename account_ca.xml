@@ -760,8 +760,9 @@
         <!-- Sales Returns -->
         <record model="account.account.template" id="ca_sales_returns">
             <field name="name">Sales Returns</field>
-            <field name="kind">view</field>
-            <field name="type" ref="ca_income"/>
+            <field name="code">RET</field>
+            <field name="kind">other</field>
+            <field name="type" ref="ca_expense"/>
             <field name="parent" ref="ca_root"/>
         </record>
 
@@ -785,7 +786,7 @@
             <field name="name">Sales Returns, Clients - Gifts</field>
             <field name="code">4031</field>
             <field name="kind">revenue</field>
-            <field name="type" ref="ca_income"/>
+            <field name="type" ref="ca_expense"/>
             <field name="parent" ref="ca_sales_returns"/>
         </record>
 
@@ -793,7 +794,7 @@
             <field name="name">Sales Returns, Co-ordinator, Courses</field>
             <field name="code">4111</field>
             <field name="kind">revenue</field>
-            <field name="type" ref="ca_income"/>
+            <field name="type" ref="ca_expense"/>
             <field name="parent" ref="ca_sales_returns"/>
         </record>
 
@@ -801,7 +802,7 @@
             <field name="name">Sales Returns, Co-ordinator, Health</field>
             <field name="code">4121</field>
             <field name="kind">revenue</field>
-            <field name="type" ref="ca_income"/>
+            <field name="type" ref="ca_expense"/>
             <field name="parent" ref="ca_sales_returns"/>
         </record>
 
@@ -809,7 +810,7 @@
             <field name="name">Sales Returns, Co-ordinator, Gifts</field>
             <field name="code">4131</field>
             <field name="kind">revenue</field>
-            <field name="type" ref="ca_income"/>
+            <field name="type" ref="ca_expense"/>
             <field name="parent" ref="ca_sales_returns"/>
         </record>
 
@@ -817,7 +818,7 @@
             <field name="name">Sales Returns, Health Products</field>
             <field name="code">4211</field>
             <field name="kind">revenue</field>
-            <field name="type" ref="ca_income"/>
+            <field name="type" ref="ca_expense"/>
             <field name="parent" ref="ca_sales_returns"/>
         </record>
 
@@ -825,7 +826,7 @@
             <field name="name">Sales Returns, Courses</field>
             <field name="code">4221</field>
             <field name="kind">revenue</field>
-            <field name="type" ref="ca_income"/>
+            <field name="type" ref="ca_expense"/>
             <field name="parent" ref="ca_sales_returns"/>
         </record>
 
@@ -833,7 +834,7 @@
             <field name="name">Sales Returns, Gifts</field>
             <field name="code">4231</field>
             <field name="kind">revenue</field>
-            <field name="type" ref="ca_income"/>
+            <field name="type" ref="ca_expense"/>
             <field name="parent" ref="ca_sales_returns"/>
         </record>
 
