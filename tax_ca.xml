@@ -257,14 +257,14 @@
         </record>
 
         <record model="account.tax.template" id="tax_pst_pe">
-            <field name="name">PST - SK</field>
+            <field name="name">PST - PE</field>
             <field name="description">Provincial Sales Tax - Prince Edward Island</field>
             <field name="sequence">20</field>
             <field name="group" ref="tax_group_pst"/>
             <field name="percentage" eval="Decimal('10.5')"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
-            <field name="invoice_account" ref="pst_sk" />
+            <field name="invoice_account" ref="pst_pe" />
             <field name="credit_note_account" ref="ca_sales_returns" />
             <field name="invoice_base_sign" eval="1" />
             <field name="invoice_tax_sign" eval="1" />
