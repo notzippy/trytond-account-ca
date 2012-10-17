@@ -213,7 +213,7 @@
             <field name="description">Quebec Sales Tax</field>
             <field name="sequence">20</field>
             <field name="group" ref="tax_group_pst"/>
-            <field name="percentage" eval="Decimal('9.5')"/>
+            <field name="percentage" eval="Decimal('9.975')"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="qst" />
@@ -261,7 +261,7 @@
             <field name="description">Provincial Sales Tax - Prince Edward Island</field>
             <field name="sequence">20</field>
             <field name="group" ref="tax_group_pst"/>
-            <field name="percentage" eval="10"/>
+            <field name="percentage" eval="Decimal('10.5')"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="pst_sk" />
