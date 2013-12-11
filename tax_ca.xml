@@ -117,7 +117,7 @@
             <field name="description">Goods and Services Tax</field>
             <field name="sequence">10</field>
             <field name="group" ref="tax_group_gst"/>
-            <field name="percentage" eval="5"/>
+            <field name="rate" eval="5"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="gst_payable" />
@@ -133,7 +133,7 @@
             <field name="description">Harmonized Sales Tax - British Columbia</field>
             <field name="sequence">10</field>
             <field name="group" ref="tax_group_gst"/>
-            <field name="percentage" eval="12"/>
+            <field name="rate" eval="12"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="hst_bc" />
@@ -149,7 +149,7 @@
             <field name="description">Harmonized Sales Tax - Ontario</field>
             <field name="sequence">10</field>
             <field name="group" ref="tax_group_gst"/>
-            <field name="percentage" eval="13"/>
+            <field name="rate" eval="13"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="hst_on" />
@@ -165,7 +165,7 @@
             <field name="description">Harmonized Sales Tax - New Brunswick</field>
             <field name="sequence">10</field>
             <field name="group" ref="tax_group_gst"/>
-            <field name="percentage" eval="13"/>
+            <field name="rate" eval="13"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="hst_nb" />
@@ -181,7 +181,7 @@
             <field name="description">Harmonized Sales Tax - Nova Scotia</field>
             <field name="sequence">10</field>
             <field name="group" ref="tax_group_gst"/>
-            <field name="percentage" eval="15"/>
+            <field name="rate" eval="15"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="hst_ns" />
@@ -197,7 +197,7 @@
             <field name="description">Harmonized Sales Tax - Newfoundland and Labrador</field>
             <field name="sequence">10</field>
             <field name="group" ref="tax_group_gst"/>
-            <field name="percentage" eval="13"/>
+            <field name="rate" eval="13"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="hst_nl" />
@@ -213,7 +213,7 @@
             <field name="description">Quebec Sales Tax</field>
             <field name="sequence">20</field>
             <field name="group" ref="tax_group_pst"/>
-            <field name="percentage" eval="Decimal('9.975')"/>
+            <field name="rate" eval="Decimal('9.975')"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="qst" />
@@ -229,7 +229,7 @@
             <field name="description">Provincial Sales Tax - Manitoba</field>
             <field name="sequence">20</field>
             <field name="group" ref="tax_group_pst"/>
-            <field name="percentage" eval="7"/>
+            <field name="rate" eval="7"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="pst_mb" />
@@ -245,7 +245,7 @@
             <field name="description">Provincial Sales Tax - Saskachewan</field>
             <field name="sequence">20</field>
             <field name="group" ref="tax_group_pst"/>
-            <field name="percentage" eval="5"/>
+            <field name="rate" eval="5"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="pst_mb" />
@@ -261,7 +261,7 @@
             <field name="description">Provincial Sales Tax - Prince Edward Island</field>
             <field name="sequence">20</field>
             <field name="group" ref="tax_group_pst"/>
-            <field name="percentage" eval="Decimal('10.5')"/>
+            <field name="rate" eval="Decimal('10.5')"/>
             <field name="type">percentage</field>
             <field name="account" ref="ca_root" />
             <field name="invoice_account" ref="pst_pe" />
