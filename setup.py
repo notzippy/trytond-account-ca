@@ -24,7 +24,7 @@ minor_version = int(minor_version)
 requires = []
 
 MODULE = 'account_ca'
-PREFIX = 'trytond'
+PREFIX = 'openlabs'
 MODULE2PREFIX = {}
 
 for dep in info.get('depends', []):
